@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.mjs",
   "engines": {
-    "node": "22.x"
+    "node": ">=20"
   },
   "scripts": {
     "dev": "nodemon --experimental-modules --env-file .env src/index.js",
