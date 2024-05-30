@@ -71,3 +71,6 @@ server.get("/cidade/nome/:nome", async (request, response) => {
 server.listen(port, () => {
 	console.log(`API esta rodando na porta ${port}`);
 })
+
+// Export the Express API
+module.exports = server
