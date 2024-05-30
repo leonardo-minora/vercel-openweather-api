@@ -15,3 +15,10 @@
 4. Crie um projeto no [vercel](https://vercel.com/)
 5. Importe o repositório do [github](https://github.com/) da sua conta
 6. Crie uma variável de ambiente `API_KEY` colocando o valor da chave gerada [OpenWeather](https://openweathermap.org/)
+7. Confirme a instalação
+
+## Rotas
+
+1. `/` root que retorna apenas informação da API
+2. `/cidade/nome/:nome_da_cidade_` recupera dados pelo nome de uma cidade
+3. `/cidade/id/:id_da_cidade_` recupera dados pelo identificador da [OpenWeather](https://openweathermap.org/) de uma cidade
